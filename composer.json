@@ -1,0 +1,34 @@
+{
+  "name": "i-chernyshov/order-processing-system",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "OrderProcessing\\": "src/",
+      "Interfaces\\": "interfaces/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vladimir Chernyshov",
+      "email": "chernyshov629@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "config": {
+    "platform-check": false
+  },
+  "require": {
+    "php": "^7.3.29",
+    "spatie/async": "dev-master",
+    "recoil/recoil": "dev-master"
+  },
+  "require-dev": {
+    "vladimir163/lead-generator": "*",
+    "phpunit/phpunit": "*"
+  }
+}
